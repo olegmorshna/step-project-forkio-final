@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page__body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  min-width: 320px;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 481px) and (max-width: 992px) {
+    max-width: 768px;
+  }
+  @media (min-width: 993px) {
+    max-width: 1200px;
+  }
+}

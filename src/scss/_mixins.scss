@@ -1,0 +1,43 @@
+%subscription_uppercase-text {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+%price {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+%title-subscription {
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+%duration-pseudo {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  background: #8d81ac;
+}
+%duration-info {
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 37px;
+}
+%button-styles {
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
